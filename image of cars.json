@@ -1,0 +1,284 @@
+{
+    "Labels": [
+        {
+            "Name": "Outdoors",
+            "Confidence": 99.89981079101562,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Nature and Outdoors"
+                }
+            ]
+        },
+        {
+            "Name": "Aerial View",
+            "Confidence": 96.09172821044922,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Outdoors"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Colors and Visual Composition"
+                }
+            ]
+        },
+        {
+            "Name": "Transportation",
+            "Confidence": 95.74634552001953,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Vehicles and Automotive"
+                }
+            ]
+        },
+        {
+            "Name": "Vehicle",
+            "Confidence": 95.74634552001953,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Transportation"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Vehicles and Automotive"
+                }
+            ]
+        },
+        {
+            "Name": "Car",
+            "Confidence": 91.30962371826172,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.030493302270770073,
+                        "Height": 0.08222378045320511,
+                        "Left": 0.2587119936943054,
+                        "Top": 0.9177762269973755
+                    },
+                    "Confidence": 87.50320434570312
+                },
+                {
+                    "BoundingBox": {
+                        "Width": 0.029672840610146523,
+                        "Height": 0.07585697621107101,
+                        "Left": 0.3378567695617676,
+                        "Top": 0.9241430163383484
+                    },
+                    "Confidence": 84.76026153564453
+                },
+                {
+                    "BoundingBox": {
+                        "Width": 0.01156130712479353,
+                        "Height": 0.031603507697582245,
+                        "Left": 0.00016768356726970524,
+                        "Top": 0.00027922465233132243
+                    },
+                    "Confidence": 75.58184051513672
+                },
+                {
+                    "BoundingBox": {
+                        "Width": 0.06495537608861923,
+                        "Height": 0.0524013377726078,
+                        "Left": 0.05437637120485306,
+                        "Top": 0.6158956289291382
+                    },
+                    "Confidence": 73.84835815429688
+                },
+                {
+                    "BoundingBox": {
+                        "Width": 0.031722117215394974,
+                        "Height": 0.11586158722639084,
+                        "Left": 0.10674211382865906,
+                        "Top": 0.0
+                    },
+                    "Confidence": 59.4681510925293
+                },
+                {
+                    "BoundingBox": {
+                        "Width": 0.07178040593862534,
+                        "Height": 0.059573978185653687,
+                        "Left": 0.6558735966682434,
+                        "Top": 0.35458770394325256
+                    },
+                    "Confidence": 51.3349609375
+                }
+            ],
+            "Parents": [
+                {
+                    "Name": "Transportation"
+                },
+                {
+                    "Name": "Vehicle"
+                }
+            ],
+            "Aliases": [
+                {
+                    "Name": "Automobile"
+                }
+            ],
+            "Categories": [
+                {
+                    "Name": "Vehicles and Automotive"
+                }
+            ]
+        },
+        {
+            "Name": "Parking Lot",
+            "Confidence": 87.91925048828125,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Car"
+                },
+                {
+                    "Name": "Transportation"
+                },
+                {
+                    "Name": "Vehicle"
+                }
+            ],
+            "Aliases": [
+                {
+                    "Name": "Parking"
+                }
+            ],
+            "Categories": [
+                {
+                    "Name": "Transport and Logistics"
+                }
+            ]
+        },
+        {
+            "Name": "Truck",
+            "Confidence": 75.78751373291016,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.026741845533251762,
+                        "Height": 0.11676251888275146,
+                        "Left": 0.751013994216919,
+                        "Top": 0.0023471785243600607
+                    },
+                    "Confidence": 75.78751373291016
+                },
+                {
+                    "BoundingBox": {
+                        "Width": 0.06435587257146835,
+                        "Height": 0.05526980385184288,
+                        "Left": 0.7206898927688599,
+                        "Top": 0.633188784122467
+                    },
+                    "Confidence": 53.19769287109375
+                }
+            ],
+            "Parents": [
+                {
+                    "Name": "Transportation"
+                },
+                {
+                    "Name": "Vehicle"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Vehicles and Automotive"
+                }
+            ]
+        },
+        {
+            "Name": "Motorcycle",
+            "Confidence": 61.98011779785156,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.04203875735402107,
+                        "Height": 0.11685000360012054,
+                        "Left": 0.07430266588926315,
+                        "Top": 0.11597050726413727
+                    },
+                    "Confidence": 61.98011779785156
+                }
+            ],
+            "Parents": [
+                {
+                    "Name": "Transportation"
+                },
+                {
+                    "Name": "Vehicle"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Vehicles and Automotive"
+                }
+            ]
+        },
+        {
+            "Name": "Road",
+            "Confidence": 54.978721618652344,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Transport and Logistics"
+                }
+            ]
+        },
+        {
+            "Name": "Boat",
+            "Confidence": 50.1536865234375,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.047478653490543365,
+                        "Height": 0.09110355377197266,
+                        "Left": 0.0,
+                        "Top": 0.20837588608264923
+                    },
+                    "Confidence": 50.1536865234375
+                }
+            ],
+            "Parents": [
+                {
+                    "Name": "Transportation"
+                },
+                {
+                    "Name": "Vehicle"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Vehicles and Automotive"
+                }
+            ]
+        }
+    ],
+    "LabelModelVersion": "3.0",
+    "ResponseMetadata": {
+        "RequestId": "38aea2d8-78dc-43cd-ad2a-ed40a792eb81",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amzn-requestid": "38aea2d8-78dc-43cd-ad2a-ed40a792eb81",
+            "content-type": "application/x-amz-json-1.1",
+            "content-length": "3324",
+            "date": "Thu, 08 Jun 2023 15:22:13 GMT"
+        },
+        "RetryAttempts": 0
+    }
+}
